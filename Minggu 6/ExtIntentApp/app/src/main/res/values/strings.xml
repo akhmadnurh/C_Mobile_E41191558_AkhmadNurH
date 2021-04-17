@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExtIntentApp</string>
+    <string name="i_am">I am</string>
+    <string name="this_is_second_activity">This is second activity</string>
+</resources>

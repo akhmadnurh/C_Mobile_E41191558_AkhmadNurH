@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MoveActivity">
-
+<!--  View untuk menampilkan text  -->
     <TextView
         android:text="ini MoveActivity"
         android:layout_width="match_parent"

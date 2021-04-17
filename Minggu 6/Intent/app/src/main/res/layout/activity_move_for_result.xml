@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MoveForResultActivity">
-
+<!--  Menampilkan text  -->
     <TextView
         android:text="Pilih angka yang anda suka"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
+<!-- Input radio -->
     <RadioGroup
         android:id="@+id/radioGroupAngka"
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </RadioGroup>
-
+<!-- Tombol submit -->
     <Button
         android:id="@+id/buttonSubmit"
         android:text="Submit"

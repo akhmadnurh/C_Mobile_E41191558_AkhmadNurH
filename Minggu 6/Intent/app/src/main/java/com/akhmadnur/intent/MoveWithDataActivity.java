@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class MoveWithDataActivity extends AppCompatActivity {
-
+// Deklarasi variable
     private TextView tvdataintent;
     @Override
+//    Method onCreate
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_move_with_data);

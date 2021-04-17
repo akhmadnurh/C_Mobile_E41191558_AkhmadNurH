@@ -9,12 +9,13 @@ import android.widget.Button;
 import android.widget.RadioGroup;
 
 public class MoveForResultActivity extends AppCompatActivity implements View.OnClickListener {
-
+//   Deklarasi variable
     public static final int RESULT_CODE = 110;
     public static final String EXTRA_VALUE = "EXTRA_VALUE";
     private Button buttonSubmit;
     private RadioGroup radioGroupAngka;
 
+//    Method onCreate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +26,7 @@ public class MoveForResultActivity extends AppCompatActivity implements View.OnC
         buttonSubmit.setOnClickListener(this);
     }
 
+//    Method yang bekerja setelah tombol/form diklik
     @Override
     public void onClick(View v) {
         if (radioGroupAngka.getCheckedRadioButtonId() != 0){

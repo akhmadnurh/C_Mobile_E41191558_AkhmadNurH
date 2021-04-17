@@ -4,11 +4,14 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Person implements Parcelable {
+
+//    Deklarasi variable
     private String name;
     private int age;
     private String email;
     private String city;
 
+//    Method untuk menampilkan dan mengambil data
     public String getName() {
         return name;
     }

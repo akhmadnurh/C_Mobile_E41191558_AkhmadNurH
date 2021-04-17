@@ -13,17 +13,20 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
+//    Deklarasi variabel
     private static final int REQUEST_CODE = 75;
     private static final int PICK_CONTACT_REQUEST = 1;
-    private Button buttonPindahActivity, buttonPindahActivityDenganData, buttonMoveWithObject, buttonDialNumber, buttonMaps, buttonShare, buttonSMS, buttonGetContactPhone, buttonPindahActivityUntukResult;
+    private Button buttonPindahActivity, buttonPindahActivityDenganData,
+            buttonMoveWithObject, buttonDialNumber, buttonMaps, buttonShare,
+            buttonSMS, buttonGetContactPhone, buttonPindahActivityUntukResult;
     private TextView textViewResult;
-
+// method onCreate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//        Deklarasi id pada variable yang telah dibuat
         buttonPindahActivity = findViewById(R.id.buttonPindahActivity);
         buttonPindahActivity.setOnClickListener(this);
 
@@ -53,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         textViewResult = findViewById(R.id.textViewResult);
     }
-
+// Method event handler pada setiap tombol
     @Override
     public void onClick(View v) {
         switch (v.getId()){
@@ -101,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
-
+// method untuk mengambil data
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
