@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ActivitySecond">
-
+<!-- Menampilkan text -->
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
@@ -16,6 +16,7 @@
         android:layout_marginStart="12dp"
         android:textStyle="bold"
         android:id="@+id/txtHello"/>
+<!--  Menampilkan text  -->
     <TextView
         android:text="@string/this_is_second_activity"
         android:layout_width="wrap_content"

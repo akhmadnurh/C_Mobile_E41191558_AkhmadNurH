@@ -10,16 +10,18 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+//    Deklarasi variabel
     Button button;
     EditText editText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//  Mencari view berdasarkan
         button = findViewById(R.id.button);
         editText = findViewById(R.id.editText);
 
+//  Event handler untuk tombol
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
